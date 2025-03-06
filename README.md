@@ -1,4 +1,4 @@
-# AtliQ Hardware - Data-Driven Business Optimization
+# Business-Insights-360-Project
 
 - **Live Dashboard**: https://shorturl.at/Yrlqh
 
