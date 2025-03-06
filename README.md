@@ -1,47 +1,119 @@
-# Business-Insights-360-Project
-AtliQ Hardware Analytics
-Live dashboard link : https://shorturl.at/B7Scm
-📌 Company Background
-AtliQ Hardware is a global producer and seller of computer hardware and peripherals, such as PCs, mice, and printers. The company operates through various sales channels:
+# AtliQ Hardware - Data-Driven Business Optimization
 
-Retailer Channels:
-Brick & Mortar: Physical stores like Croma and Best Buy.
-E-commerce: Online platforms like Amazon and Flipkart.
-Direct Channels:
-AtliQ E-store and AtliQ Exclusive.
-Distributors:
-Used in restricted trade regions like Neptune.
-🎯 Project Objective
-The goal of the project is to improve business performance using data-driven insights, focusing on:
+## Company Background
+AtliQ Hardware is a global manufacturer and seller of computer hardware and peripherals, including PCs, mice, and printers. The company operates through multiple sales channels:
 
-Financial Management: Analyzing profitability and gross margin across customers and products.
-Customer Segmentation: Identifying key customers and their contributions to sales.
-Product Analysis: Evaluating product sales performance and revenue generation.
-Inventory Management: Forecasting demand to minimize stockouts and overstocking.
-Data-Driven Decisions: Strengthening market strategies for a competitive edge.
-📊 Dataset Overview
-The dataset includes 1.8 million records from 2018 to 2022, covering:
+- **Retailer Channels**:
+  - 🏢 Brick & Mortar: Physical stores like Croma, Best Buy.
+  - 🌐 E-commerce: Online platforms like Amazon, Flipkart.
+  
+- **Direct Channels**:
+  - 🛒 AtliQ E-store and AtliQ Exclusive.
 
-Customer Data: Information on location, forecast quantity, net sales, and sales channels.
-Product Data: Product segments, categories, manufacturing costs, and sales revenue.
-Market Data: Geographic performance, operational costs, and market share.
-🏗 Data Model
-The dataset is organized for efficient ETL, analysis, and visualization, with the following tools:
+- **Distributors**:
+  - 🚚 Used in restricted trade regions, e.g., Neptune.
 
-Microsoft Power BI for ETL, data modeling, visualizations, and dashboard creation.
-Skills & Methodologies Applied:
+## Project Objective
+This project aims to optimize business performance through data-driven insights, focusing on:
 
-Data Cleaning: Using Power Query.
-Data Manipulation: Creating DAX measures and calculated columns.
-Visualization: Designing charts, bar graphs, tooltips, and applying conditional formatting.
-Dashboarding: Implementing filters, slicers, bookmarks, custom icons, and navigation features.
-Report Publishing: Publishing to Power BI Service and optimizing report performance.
+- 💵 **Financial Management**: Analyzing gross margin and profitability across customers and products.
+- 👥 **Customer Segmentation**: Identifying ideal customers and their sales contributions.
+- 📦 **Product Analysis**: Evaluating sales performance and revenue contribution of products.
+- 📊 **Inventory Management**: Reducing stockouts and overstocking through demand forecasting.
+- 📈 **Data-Driven Decisions**: Enhancing market strategies for a competitive advantage.
 
-# 📑 BI 360 Report Overview
-1️⃣ Home View
-![Image](https://github.com/user-attachments/assets/8cf880d1-a843-44cf-a8ee-425fb9e0f5c4)
+## Dataset Overview
+The dataset comprises **1.8 million records** (2018-2022) covering:
 
+- 🧑‍💻 **Customer Details**: Location, forecast quantity, net sales, sales channels.
+- 🛍️ **Product Details**: Segments, categories, manufacturing cost, sales revenue.
+- 🌍 **Market Details**: Geographic performance, operational expenses, market share.
 
+## Data Model 🗂️
+The dataset is structured for efficient ETL, analysis, and visualization, integrating:
 
+- **Microsoft Power BI** for ETL, data modeling, visualization, and dashboarding.
 
+### Skills & Methodologies Implemented:
+- 🧹 **Data Cleaning**: Power Query.
+- 🔢 **Data Manipulation**: DAX measures, calculated columns.
+- 📊 **Visualization**: Charts, bar graphs, tooltips, conditional formatting.
+- 📑 **Dashboarding**: Filters, slicers, bookmarks, custom icons, navigation.
+- 🚀 **Report Publishing**: Power BI Service and performance optimization.
 
+## BI 360 Report Overview
+The BI 360 report includes multiple views:
+
+1. 🏠 **Home View**
+   
+   ![Image](https://github.com/user-attachments/assets/6f405714-efef-42af-9d81-793c55b830d6)
+2. 💰 **Finance View**
+![Image](https://github.com/user-attachments/assets/e43ef65c-0328-4ae3-849b-9267e21a605e)
+
+3. 💼 **Sales Insights**
+![Image](https://github.com/user-attachments/assets/bcd6111c-0246-4587-be16-77686c97228b)
+ 
+4. 📣 **Marketing View**
+![Image](https://github.com/user-attachments/assets/47ad9bf2-dba0-4cac-8b0d-f4a3e849b794)
+   
+5. 🏗️ **Supply Chain View**
+![Image](https://github.com/user-attachments/assets/84970972-eb15-440b-8ca1-ce8be41daae7)
+
+6. 👔 **Executive View**
+![Image](https://github.com/user-attachments/assets/a73c0f2b-24b5-4224-a5c4-af4e4616c34f)
+
+7. 👔 **Products**
+![Image](https://github.com/user-attachments/assets/d39125da-b5c3-4efe-98e9-0cc4b4bb1256)
+   
+## Key Insights
+
+- 📈 **Revenue Growth**: Sales increased from **$111M to $3.7B** (2019-2022).
+- 😷 **Pandemic Impact**: Sales dropped **75%** in May 2020, then rebounded stronger.
+- 🎉 **Seasonality**: Peak sales occur in **November-December** each year.
+- 🌍 **Regional Sales**: **APAC and North America** contribute **78%** of sales, with **India alone** contributing **25%**.
+- 🛍️ **Channel Trends**: Retailer sales grew from **66% (2019)** to **71% (2022)**.
+- 💸 **Margin & Profit**:
+  - Gross Margin: **41% (2019)** → **38% (2022)** due to rising costs.
+  - Net Profit: **2% (2019)** → **-13% (2022)** due to expansion expenses.
+- 📊 **Product Performance**:
+  - Notebook, Accessories, Peripherals: Sales increased from **70%** → **85% (2022)**.
+  - Top Categories: Keyboards, Business Laptops, Personal Laptops, Mice (**55% of 2021 revenue**).
+  - Desktop Segment: Introduced in **2020**, contributing **19%** of **2022 revenue**.
+
+## Recommendations
+
+1. 📉 **Improve Gross Margin**:
+   - Optimize supply chain forecasting for seasonal demand.
+   - Adjust production plans based on market trends.
+   - Regularly monitor raw material costs and negotiate better supplier rates.
+
+2. 💡 **Increase Profitability**:
+   - Focus on high-margin products: USB Flash Drives, HDDs, WiFi Extenders.
+   - Improve online retail performance via social media promotions.
+   - Minimize operational expenses (utilities, ads, marketing, rent).
+   - Implement dynamic pricing during peak seasons (Oct–Dec).
+
+3. 🛍️ **Expand Product Offerings**:
+   - Diversify Keyboards, Laptops, Mouse with premium models.
+   - Introduce customized solutions to increase repeat purchases.
+
+4. 📢 **Optimize Sales Channels**:
+   - Expand affiliate marketing & influencer partnerships.
+   - Enhance customer re-engagement with personalized messaging.
+
+5. 🌎 **Regional Growth Strategies**:
+   - Continue investing in high-performing regions (NA & APAC).
+   - Expand into LATAM with localized marketing & referral incentives.
+   - Establish regional partnerships to stabilize emerging market sales.
+
+## Conclusion
+By leveraging data-driven strategies, AtliQ Hardware can:
+
+- 📈 **Optimize sales**,
+- 💰 **Improve profitability**, and
+- 🌍 **Expand its global market presence**.
+
+The insights from this analysis enable smarter business decisions, driving sustainable growth and competitive advantage in the hardware industry.
+
+## Connect with Me
+If you found this analysis useful, feel free to connect on LinkedIn or reach out for collaborations! 🌟
