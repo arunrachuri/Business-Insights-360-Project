@@ -1,5 +1,7 @@
 # AtliQ Hardware - Data-Driven Business Optimization
 
+- **Live Dashboard**: https://shorturl.at/Yrlqh
+
 ## Company Background
 AtliQ Hardware is a global manufacturer and seller of computer hardware and peripherals, including PCs, mice, and printers. The company operates through multiple sales channels:
 
